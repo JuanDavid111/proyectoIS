@@ -1,0 +1,23 @@
+@startuml Casos de Usos
+left to right direction
+
+actor Proponente
+actor DEU
+skinparam PackageStyle rectangle
+
+rectangle Sistema_de_gestion{
+    usecase "UC2: Formulario" as UC2
+    usecase "UC1: Registrarse" as UC1
+    usecase "UC3: Verificacion" as UC3
+    usecase "UC3.1: No aprobado" as UC31
+    usecase "UC4: Otorgar Aval" as UC4
+}
+
+Proponente --> UC1
+Proponente --> UC2
+Proponente --> UC4
+DEU --> UC3
+UC31 .> UC3 : extend
+DEU --> UC4
+
+@enduml
