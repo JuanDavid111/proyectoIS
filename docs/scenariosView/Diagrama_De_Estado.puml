@@ -1,0 +1,27 @@
+@startuml reto8
+
+[*]  --> IngresoSolicitado 
+state c <<choice>> 
+state d <<choice>> 
+state b <<choice>>
+state a <<choice>>
+ 
+IngresoSolicitado --> c: IngresarDatosDeRegistro
+c --> IngresaProponente_PersonaSolicitante: RegitrarConCI,RIFyCopiaTítulo 
+c --> AdminitradorDelDepartamentoDeExtensión_Autorizado : IngresaConCredenciales 
+AdminitradorDelDepartamentoDeExtensión_Autorizado --> AprobacionPorLaDEU: VerificarDatosDelSolicitante
+IngresaProponente_PersonaSolicitante --> d 
+b --> AdminitradorDelDepartamentoDeExtensión_Autorizado: EnviarDatos,RequisitosYAvalesProponente
+d --> PersonaJurídicaRegistrada: ProporcionaRegistroMercantil 
+ 
+
+d --> PersonaNaturalRegistrada: NoSuministraRegistroMercantil
+PersonaNaturalRegistrada --> b 
+PersonaJurídicaRegistrada --> b
+b --> a: LlenarFormulario_Curso
+AprobacionPorLaDEU --> a: ValidarAvalesYRequisitos
+a --> Proponente_Aliado_AprobadoYCapacitado
+Proponente_Aliado_AprobadoYCapacitado --> [*]: ValidarYAprobarCurso
+
+
+@enduml
