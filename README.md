@@ -13,4 +13,13 @@
 ![](https://cdn.discordapp.com/attachments/1246935568466841625/1250254992598634526/IMG_20240611_210449_170.png?ex=666a4632&is=6668f4b2&hm=7a2951dad8f235c1f74095b3e1ac540c6e6734b9a960a9c71c4e601c4ecc59cd&)
 
 ### Casos de uso
-![](https://cdn.discordapp.com/attachments/1246935568466841625/1249160370439065680/Casos_de_Usos.png?ex=66699680&is=66684500&hm=b5e4bb92736ccbe8d1ad6775e37a48050db71191913a1ae5213d1ec5a330c89f&=)
+![](https://media.discordapp.net/attachments/1246935568466841625/1254552371699253309/image.png?ex=6679e871&is=667896f1&hm=79bb91485c506423828ead87c078943d8ac25cfabca63d0e77d4736660584597&=&format=webp&quality=lossless&width=607&height=626)
+
+
+![]()
+![]()
+![]()
+![]()
+![]()
+![]()
+![]()
