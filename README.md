@@ -14,12 +14,13 @@
 
 ### Casos de uso
 ![](https://media.discordapp.net/attachments/1246935568466841625/1254552371699253309/image.png?ex=6679e871&is=667896f1&hm=79bb91485c506423828ead87c078943d8ac25cfabca63d0e77d4736660584597&=&format=webp&quality=lossless&width=607&height=626)
+[Especificaciones de caso de uso](https://docs.google.com/document/d/1MEt3gX_J-PPbxoFFk7-dKA0x_3GeCyxif3Wkr12mtso/edit?usp=sharing "Especificaciones de caso de uso")
 
-## diagrama de estado Proponente
+## Diagrama de estado Proponente
 ![](https://media.discordapp.net/attachments/1246935568466841625/1254552827033026621/image.png?ex=6679e8de&is=6678975e&hm=d3518bf08ce1f270f11f0620aafd5c0da8fdba2197b57cafa0e0af6e4d94efb5&=&format=webp&quality=lossless&width=441&height=626)
-## diagrama de estado Administrador
+## Diagrama de estado Administrador
 ![](https://media.discordapp.net/attachments/1246935568466841625/1254554892341874851/image.png?ex=6679eaca&is=6678994a&hm=4449a677fc1845d2ed7bd861fe67ec3fc1a86611582693e7337ae42d550917d7&=&format=webp&quality=lossless&width=594&height=626)
-## diagrama de estado aliado
+## Diagrama de estado aliado
 ![](https://media.discordapp.net/attachments/1246935568466841625/1254556943960248370/image.png?ex=6679ecb3&is=66789b33&hm=2e3ca5e9eba3c61fea137b72e61abd437b950d043e41e7e82ec5f6910b1208fc&=&format=webp&quality=lossless&width=558&height=626)
 
 ### Prototipo de las pantallas
