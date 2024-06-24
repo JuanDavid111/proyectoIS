@@ -14,6 +14,7 @@
 
 ### Casos de uso
 ![](https://media.discordapp.net/attachments/1246935568466841625/1254552371699253309/image.png?ex=6679e871&is=667896f1&hm=79bb91485c506423828ead87c078943d8ac25cfabca63d0e77d4736660584597&=&format=webp&quality=lossless&width=607&height=626)
+
 [Especificaciones de caso de uso](https://docs.google.com/document/d/1MEt3gX_J-PPbxoFFk7-dKA0x_3GeCyxif3Wkr12mtso/edit?usp=sharing "Especificaciones de caso de uso")
 
 ## Diagrama de estado Proponente
@@ -40,7 +41,7 @@
 ![](https://media.discordapp.net/attachments/1246935568466841625/1254593976867225620/Intefaces_V2_pages-to-jpg-0019.jpg?ex=667a0f31&is=6678bdb1&hm=4293e2df1dfbe5e05a3c61c02df4827d04c1d4925a2bea687ca54f72540d789b&=&format=webp&width=1113&height=626)
 ![](https://media.discordapp.net/attachments/1246935568466841625/1254593995959570472/Intefaces_V2_pages-to-jpg-0021.jpg?ex=667a0f35&is=6678bdb5&hm=9d6df815f81c7c4dd9d6f0cf3c85632b7f6dbd37462ad1fccca70401128cb18d&=&format=webp&width=1113&height=626)
 
-## Si se rechasa una propuesta
+## Si se rechaza un curso
 ![](https://media.discordapp.net/attachments/1246935568466841625/1254594053480124518/Intefaces_V2_pages-to-jpg-0023.jpg?ex=667a0f43&is=6678bdc3&hm=635de4675160425dfbac419309edd936ac27f5700df6da26e38b88e9c2470b4a&=&format=webp&width=1113&height=626)
 ![]()
 ![]()
