@@ -38,6 +38,7 @@
 ## Administrador
 ![](https://media.discordapp.net/attachments/1246935568466841625/1254593975981965395/Intefaces_V2_pages-to-jpg-0015.jpg?ex=667a0f31&is=6678bdb1&hm=2836d41553f1b3a61e5c6e83a1bb5cff1f7e1fe1604213560ac0534f43638311&=&format=webp&width=1113&height=626)
 ![](https://media.discordapp.net/attachments/1246935568466841625/1254593976506519662/Intefaces_V2_pages-to-jpg-0017.jpg?ex=667a0f31&is=6678bdb1&hm=38a7cf743ca6f60d2f087ef29dd789977b0544a55f8c7ff03e37421a834cda64&=&format=webp&width=1113&height=626)
+![](https://media.discordapp.net/attachments/1246935568466841625/1254593976867225620/Intefaces_V2_pages-to-jpg-0019.jpg?ex=66814f71&is=667ffdf1&hm=4aa8eb27aa6cac97da39a67c30f7170903eab882abdfa06f0199ab8e77824983&=&format=webp&width=1113&height=626)
 ![](https://media.discordapp.net/attachments/1246935568466841625/1254593976867225620/Intefaces_V2_pages-to-jpg-0019.jpg?ex=667a0f31&is=6678bdb1&hm=4293e2df1dfbe5e05a3c61c02df4827d04c1d4925a2bea687ca54f72540d789b&=&format=webp&width=1113&height=626)
 ![](https://media.discordapp.net/attachments/1246935568466841625/1254593995959570472/Intefaces_V2_pages-to-jpg-0021.jpg?ex=667a0f35&is=6678bdb5&hm=9d6df815f81c7c4dd9d6f0cf3c85632b7f6dbd37462ad1fccca70401128cb18d&=&format=webp&width=1113&height=626)
 
