@@ -9,7 +9,7 @@
 
 ------------
 ### Modelo del Dominio
-![](https://cdn.discordapp.com/attachments/1246935568466841625/1249145813855375532/Diagrama.png?ex=666988f2&is=66683772&hm=53a9b421ba86000de5825618f3cd06a7581cc9fbee370e1088edf2919aae307d&)
+![](https://media.discordapp.net/attachments/1246935568466841625/1254550281098887178/9d684cd9-246b-4189-8bcf-5e8701af1a53.png?ex=66807dff&is=667f2c7f&hm=763605394f66db8e0107ad1a2c0c49703733eafb84e24653165484dd7b454d54&=&format=webp&quality=lossless)
 ![](https://cdn.discordapp.com/attachments/1246935568466841625/1250254992598634526/IMG_20240611_210449_170.png?ex=666a4632&is=6668f4b2&hm=7a2951dad8f235c1f74095b3e1ac540c6e6734b9a960a9c71c4e601c4ecc59cd&)
 
 ### Casos de uso
