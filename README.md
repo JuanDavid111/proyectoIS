@@ -18,11 +18,11 @@
 [Especificaciones de caso de uso](https://docs.google.com/document/d/1MEt3gX_J-PPbxoFFk7-dKA0x_3GeCyxif3Wkr12mtso/edit?usp=sharing "Especificaciones de caso de uso")
 
 ## Diagrama de estado Proponente
-![](https://media.discordapp.net/attachments/1246935568466841625/1254552827033026621/image.png?ex=6679e8de&is=6678975e&hm=d3518bf08ce1f270f11f0620aafd5c0da8fdba2197b57cafa0e0af6e4d94efb5&=&format=webp&quality=lossless&width=441&height=626)
+![](https://github.com/JuanDavid111/proyectoIS/blob/main/imagenes/Diagrama%20de%20estado%20proponente.png)
 ## Diagrama de estado Administrador
-![](https://media.discordapp.net/attachments/1246935568466841625/1254554892341874851/image.png?ex=6679eaca&is=6678994a&hm=4449a677fc1845d2ed7bd861fe67ec3fc1a86611582693e7337ae42d550917d7&=&format=webp&quality=lossless&width=594&height=626)
+![](https://github.com/JuanDavid111/proyectoIS/blob/main/imagenes/Diagrama%20de%20estado%20administrado.png)
 ## Diagrama de estado aliado
-![](https://media.discordapp.net/attachments/1246935568466841625/1254556943960248370/image.png?ex=6679ecb3&is=66789b33&hm=2e3ca5e9eba3c61fea137b72e61abd437b950d043e41e7e82ec5f6910b1208fc&=&format=webp&quality=lossless&width=558&height=626)
+![](https://github.com/JuanDavid111/proyectoIS/blob/main/imagenes/Diagrama%20de%20estado%20aliado.png)
 
 ### Prototipo de las pantallas
 
