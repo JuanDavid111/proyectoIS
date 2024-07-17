@@ -1,0 +1,12 @@
+@startuml
+@startuml Iniciar_sesión
+actor Usuario 
+boundary UI_Login
+control Iniciar_sesión
+entity "Usuario" as usuario
+
+Usuario--UI_Login
+UI_Login--Iniciar_sesión 
+Iniciar_sesión--usuario
+
+@enduml

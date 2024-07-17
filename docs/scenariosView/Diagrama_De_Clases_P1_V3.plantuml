@@ -1,0 +1,126 @@
+@startuml Modelo de Dominio
+
+class Curso{
+
+    - Name
+    - Aprobado
+    - Duracion
+    - Formulario
+
+}
+
+class Persona{
+
+    - RIF
+    - Copia_Titulo_Universitario
+    - ISLR
+    - Resumen_Curricular
+
+}
+
+class Perona_Natural{
+
+    - CI
+
+}
+
+class Persona_Juridica{
+
+    - CI_RL_PA
+    - Registro_Mercantil
+
+}
+
+class Proponente{
+
+    - Experiencia
+
+}
+
+class Formulario{
+
+    -Denominacion
+    -Objetivos
+    -Fundamentacion
+    -Perfiles_I_E
+    -Perfil_Docente
+    -Estructura_Curricular
+    -Estrategias_Evaluacion
+    -Exigencias_Y_Servicios
+    -Duracion
+    -Estructura_Costo
+    -Cronograma_De_Ejecucion
+
+}
+
+class Administrador{
+
+    -Puesto
+
+}
+
+class DEU{
+
+}
+
+class Aliado{
+
+    - Cronograma_De_Ejecucion
+    - Estructura_Costo
+    - Ingreso_De_Lucro
+
+}
+
+class Carta_De_Intencion{
+
+    - Duracion
+    - Lucro
+    - Cursos_Aprobados
+
+}
+
+class Carta_De_Compromiso{
+
+    - Negociacion
+    - Metodologia
+    - Compromisos_Financieros
+
+}
+
+class Responsable_Financiero{
+
+}
+
+class Usuario{
+
+    - User
+    - Password
+
+}
+
+Proponente --|> Usuario
+Administrador --|> Usuario
+
+Perona_Natural --|> Persona
+Persona_Juridica --|> Persona
+
+Perona_Natural "0...1" --o "1" Proponente : Registra
+Persona_Juridica "0...1" --o "1" Proponente : Registra
+
+Proponente "1" -- "0...many"Curso : Propone
+Curso "1...many" *-- "1" Formulario: Contiene formulario
+
+DEU --|> Administrador
+
+DEU -- "1...many" Curso : Evalua Y Aprueba
+
+Aliado -- Curso : Aprobados
+
+Aliado *-- "1...many" Carta_De_Intencion : Otorga 
+
+Responsable_Financiero -- "1...many" Carta_De_Compromiso : Comprobante
+Carta_De_Compromiso "1...many" --* Aliado : Comprobante
+
+
+
+@enduml

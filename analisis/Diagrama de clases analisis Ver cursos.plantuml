@@ -1,0 +1,26 @@
+@startuml
+@startuml Otorgar Aval
+actor Administrador
+actor Proponente
+boundary UI_Cursos
+boundary UI_Cursos_P
+control Ver_cursos
+boundary UI_Home_Administredor
+entity Curso
+boundary UI_Home_Proponente
+control Ver_cursos_P
+
+
+Proponente--UI_Home_Proponente
+UI_Home_Proponente--Ver_cursos_P
+Administrador--UI_Home_Administredor
+UI_Home_Administredor--Ver_cursos
+Ver_cursos--Curso
+Ver_cursos--UI_Cursos
+Curso-left-Ver_cursos_P
+Ver_cursos_P--UI_Cursos_P
+
+
+
+
+@enduml

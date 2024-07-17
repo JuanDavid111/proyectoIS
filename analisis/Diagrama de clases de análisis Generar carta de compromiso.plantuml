@@ -1,0 +1,16 @@
+@startuml
+@startuml Generar carta de compromiso
+actor Proponente
+actor Administrador
+boundary UI_Carta_compromiso
+control Generar_carta
+entity Carta_compromiso
+control Firmar
+
+Proponente -- UI_Carta_compromiso
+UI_Carta_compromiso -- Firmar
+Firmar -- Carta_compromiso
+Administrador -- Generar_carta
+Generar_carta -- Carta_compromiso
+
+@enduml

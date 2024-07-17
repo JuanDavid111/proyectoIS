@@ -1,0 +1,13 @@
+@startuml
+@startuml Gestionar Sesión
+actor Usuario 
+boundary UI_Home
+control Gestionar_Sesión
+boundary Paner_Opciones 
+
+Usuario--UI_Home
+UI_Home--Gestionar_Sesión 
+Gestionar_Sesión--Paner_Opciones
+
+
+@enduml

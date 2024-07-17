@@ -1,0 +1,37 @@
+@startuml
+@startuml Casos de estado2
+state c1 <<choice>>
+state c2 <<choice>>
+state join_state1 <<join>>
+state join_state2 <<join>>
+
+[*] --> c1 : Iniciar sesión
+c1 --> Esperando_registro: No esta registrado
+Esperando_registro--> Registrado: registrase
+Registrado -left-> Sesión_iniciada
+ 
+c1 --> Sesión_iniciada : Si esta registrado
+Sesión_iniciada -left->[*]:Cerra sesión
+Sesión_iniciada --> Sesión_iniciada :Gestionar sesión
+Sesión_iniciada --> revisando_curso: Ver cursos
+revisando_curso --> Sesión_iniciada
+Sesión_iniciada-->join_state1 
+join_state1-->Llenando_formulario : Proponer curso
+Llenando_formulario --> Llenando_formulario: Llenar\nformulario
+
+Llenando_formulario --> Esperando_Aval: Pedir aval
+Esperando_Aval-->c2
+
+c2 -->Curso_aprobado : Si se \notorgar el Aval
+Curso_aprobado--> Carta_firmada: Firmar\ncarta de intención
+Carta_firmada-->Sesión_iniciada
+c2 -->Curso_denegado : Si no se\n otorgar el Aval
+Curso_denegado-->join_state1: Nuevo intento
+
+Sesión_iniciada-->join_state2 :entregar \nestructura de costo
+Sesión_iniciada-->join_state2 :entregar \ncronograma de ejecución
+join_state2-->Planificando_curso
+Planificando_curso-->Carta_firmada :Firmar\ncarta de compromiso
+
+
+@endum

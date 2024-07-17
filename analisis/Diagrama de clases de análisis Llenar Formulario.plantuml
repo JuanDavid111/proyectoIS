@@ -1,0 +1,14 @@
+@startuml
+@startuml Llenar_formulario
+actor Proponente
+
+boundary UI_Formulario
+control Llenar_formulario
+entity Formulario
+
+Proponente -- UI_Formulario 
+UI_Formulario -- Llenar_formulario
+Llenar_formulario -- Formulario
+
+
+@enduml

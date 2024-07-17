@@ -1,0 +1,15 @@
+@startuml
+@startuml Gestionar proponente
+actor Administrador
+boundary UI_Proponentes
+control Ver_proponentes
+boundary UI_Home_Administrador
+entity Proponente
+Administrador--UI_Home_Administrador
+UI_Home_Administrador--Ver_proponentes
+Ver_proponentes--UI_Proponentes
+Ver_proponentes--Proponente
+
+
+
+@enduml

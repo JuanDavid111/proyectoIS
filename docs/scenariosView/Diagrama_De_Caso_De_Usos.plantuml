@@ -1,23 +1,46 @@
+@startuml
 @startuml Casos de Usos
 left to right direction
-
+actor Usuario
 actor Proponente
-actor DEU
+actor Administrador
+actor Aliado
 skinparam PackageStyle rectangle
 
 rectangle Sistema_de_gestion{
-    usecase "UC2: Formulario" as UC2
-    usecase "UC1: Registrarse" as UC1
-    usecase "UC3: Verificacion" as UC3
-    usecase "UC3.1: No aprobado" as UC31
-    usecase "UC4: Otorgar Aval" as UC4
+    usecase "UC2: Registrarse" as UC2
+    usecase "UC1: Iniciar sesión" as UC1
+    usecase "UC3: Gestionar sesión" as UC3
+    usecase "UC4: Proponer curso" as UC4
+    usecase "UC4.1: llenar formulario" as UC41
+    usecase "UC5: Otorgar Aval" as UC5
+    usecase "UC6: Ver cursos" as UC6
+    usecase "UC7: Gestionar proponentes" as UC7
+    usecase "UC8: Generar carta de intención" as UC8
+    usecase "UC9: Generar carta de compromiso" as UC9
+    usecase "UC10: entregar cronograma" as UC10
+    usecase "UC11: entregar estructura de costos" as UC11
 }
+Usuario <|-- Proponente
+Usuario <|-- Administrador
+Proponente <|-- Aliado
 
-Proponente --> UC1
-Proponente --> UC2
+Usuario --> UC1
+Usuario --> UC2
+Usuario --> UC3
+Proponente --> UC5 :Recibe Aval
 Proponente --> UC4
-DEU --> UC3
-UC31 .> UC3 : extend
-DEU --> UC4
+UC4 .left.> UC41 :<<include>>
+Administrador --> UC5: Entrega Aval
+Administrador --> UC6 :Ver todos cursos propuestos
+Proponente --> UC6 :Ver sus cursos propuestos
+Administrador --> UC7
+Administrador --> UC8:Genera la carta
+Proponente --> UC8:Firma la carta
+Administrador --> UC9:Genera la carta
+Aliado --> UC9 :Firma la carta
+Aliado --> UC10
+Aliado --> UC11
 
+@enduml
 @enduml

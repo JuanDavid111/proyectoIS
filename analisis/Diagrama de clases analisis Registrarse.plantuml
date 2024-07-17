@@ -1,0 +1,12 @@
+@startuml
+@startuml Registrarse
+actor Usuario 
+boundary UI_Registro
+control Registrarse
+entity "Usuario" as usuario
+
+Usuario--UI_Registro
+UI_Registro--Registrarse 
+Registrarse--usuario
+
+@enduml

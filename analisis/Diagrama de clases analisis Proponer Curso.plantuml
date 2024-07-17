@@ -1,0 +1,19 @@
+@startuml
+@startuml Proponer_Curso
+actor Proponente
+boundary UI_Home_Proponente
+control Proponer_Curso
+boundary UI_Formulario
+control Llenar_formulario
+entity Formulario
+entity Curso
+
+Proponente -- UI_Home_Proponente 
+UI_Home_Proponente -- Proponer_Curso 
+Proponer_Curso -- UI_Formulario
+UI_Formulario -- Llenar_formulario
+Llenar_formulario -- Formulario
+Formulario--Curso
+
+
+@enduml

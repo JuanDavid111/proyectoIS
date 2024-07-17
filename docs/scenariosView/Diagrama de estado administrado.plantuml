@@ -1,0 +1,31 @@
+@startuml
+@startuml Casos de estado
+state c1 <<choice>>
+state join_state1 <<join>>
+state join_state2 <<join>>
+
+[*] --> c1 : Iniciar sesión
+c1 --> Esperando_registro: No esta registrado
+Esperando_registro--> Registrado: registrase
+Registrado --> Sesión_iniciada
+ 
+c1 --> Sesión_iniciada : Si esta registrado
+Sesión_iniciada -left->[*]:Cerra sesión
+Sesión_iniciada --> Sesión_iniciada :Gestionar sesión
+Sesión_iniciada --> revisando_curso_propuestos: Ver cursos
+Sesión_iniciada --> join_state1
+Sesión_iniciada -left-> Gestionando_proponente:Gestionar proponente
+Gestionando_proponente--> Sesión_iniciada
+join_state1 --> Generando_cartas:Generar carta de compromiso
+join_state1 --> Generando_cartas:Generar carta de intención
+Generando_cartas-->Sesión_iniciada
+revisando_curso_propuestos -->curso_aprobado: Otorgar Aval 
+revisando_curso_propuestos -->curso_denegado: No otorgar Aval 
+curso_denegado--> join_state2
+curso_aprobado--> join_state2
+join_state2-->Sesión_iniciada
+revisando_curso_propuestos --> Sesión_iniciada
+
+
+
+@enduml

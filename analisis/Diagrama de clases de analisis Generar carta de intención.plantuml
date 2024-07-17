@@ -1,0 +1,16 @@
+@startuml
+@startuml Generar carta de intención
+actor Proponente
+actor Administrador
+boundary UI_Carta_intención
+control Generar_carta
+entity Carta_intención
+control Firmar
+
+Proponente -- UI_Carta_intención
+UI_Carta_intención -- Firmar
+Firmar -- Carta_intención
+Administrador -- Generar_carta
+Generar_carta -- Carta_intención
+
+@enduml
