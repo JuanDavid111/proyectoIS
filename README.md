@@ -45,7 +45,7 @@
 ### Si se rechaza un curso
 ![](https://media.discordapp.net/attachments/1246935568466841625/1254594053480124518/Intefaces_V2_pages-to-jpg-0023.jpg?ex=667a0f43&is=6678bdc3&hm=635de4675160425dfbac419309edd936ac27f5700df6da26e38b88e9c2470b4a&=&format=webp&width=1113&height=626)
 # Modelo de análisis
-
+![Gestionar Sesión](https://www.plantuml.com/plantuml/png/PSon3S9030NGtbDu0U-G3gY85AK-cOkBat8sikyAvc845gD9K52gBttz_uPexAtN5IyIhPYouoHHFcy5piqSv-ZinH0UrdLXV-5yIrUh0jcqkHsUQN_-fYEhUBe_Sp6LG81D8zgHBObE2iAf8le70GRHfTVr2m00 "Gestionar Sesión")
 # Modelo de diseño
 ![]()
 ![]()
