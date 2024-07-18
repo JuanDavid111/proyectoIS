@@ -45,7 +45,28 @@
 ### Si se rechaza un curso
 ![](https://media.discordapp.net/attachments/1246935568466841625/1254594053480124518/Intefaces_V2_pages-to-jpg-0023.jpg?ex=667a0f43&is=6678bdc3&hm=635de4675160425dfbac419309edd936ac27f5700df6da26e38b88e9c2470b4a&=&format=webp&width=1113&height=626)
 # Modelo de análisis
+![Iniciar_sesión](https://www.plantuml.com/plantuml/png/POmn2eH0303xl2BOvm-smhNM4jVb26W2IRRmNJxXFdR5UHRQ3GCpVIHxjct5GQK8-nGrv7CeS4bp7AEnYo7CrdHXtt4SffUzHQ6Ofjiph9gIEtPdsY47jXy3d9Beslo1w3P2k0cYQzDNNTgsVW40 "Iniciar_sesión")
+
 ![Gestionar Sesión](https://www.plantuml.com/plantuml/png/PSon3S9030NGtbDu0U-G3gY85AK-cOkBat8sikyAvc845gD9K52gBttz_uPexAtN5IyIhPYouoHHFcy5piqSv-ZinH0UrdLXV-5yIrUh0jcqkHsUQN_-fYEhUBe_Sp6LG81D8zgHBObE2iAf8le70GRHfTVr2m00 "Gestionar Sesión")
+
+![Registrarse](https://www.plantuml.com/plantuml/png/LOmx2e1034Jxd2BOvmwsjeArH5raOTr0FeMtjt2HjPiPvhtHdDNZAZYdCvihgoNWtKLniM3DWh19r8FrncLQsqrWb-egVovLptxZqCW1sJ3U3D16ejxIPQ9EXT0Leayofdh4LHu0 "Registrarse")
+
+![Gestionar Sesión](https://www.plantuml.com/plantuml/png/PSon3S9030NGtbDu0U-G3gY85AK-cOkBat8sikyAvc845gD9K52gBttz_uPexAtN5IyIhPYouoHHFcy5piqSv-ZinH0UrdLXV-5yIrUh0jcqkHsUQN_-fYEhUBe_Sp6LG81D8zgHBObE2iAf8le70GRHfTVr2m00 "Gestionar Sesión")
+
+![Proponer_Curso](https://www.plantuml.com/plantuml/png/RKux2iCm3Drr2br0TmWKGWiTkdGsRk92m9QA8W-vVGbfQpVEflVHUw-RpQlb5F6cyX8EwavPPm4_cEYNP0lmaCoZrmNl5tUM55ob3SAcqcJKBxreoj7h93_tDGRswfv52MoJBTWtp9O7fHA93eOW7714krq8ExnbLQr_Q9NRgGspsgg8SX9zraCNUCmflW40 "Proponer_Curso")
+
+![Llenar_formulario](https://www.plantuml.com/plantuml/png/RSqn2e0m38NXFQV81Ne79q5mS76Mg164Df6O3hszE5NHCO-VBytfP9vJn3woa4sRMigHR5UWnTLmC3rKM9m1PisoaXKSkwcjuQBYfdy4Y-zUyD52zJ24DuJmFaFu8J_BdJqVGCEovXGl "Llenar_formulario")
+
+![Ver Curso](https://www.plantuml.com/plantuml/png/RP0n3iCW34Ltdu8BS8TKNTejIxiY6bmfKh0hOuRUlYgD2eXCmDFtz_zCIRreZfkvevXpbiJW5sKnfn1NMfEA3omxcuLVJ4YAyE1CmSlRtAwkZAK3v6POc5IusBjbr5quelklmkyg95trlMSPj4s4qThD050LrXvCZSZQpg4hNYtwa8UqDO9wjVRNfINrryfXDtng7wDzDFfI4M122Zbk7m00 "Ver Curso")
+
+![Gestionar proponente](https://www.plantuml.com/plantuml/png/VOuz3iCW38Ltdy8Nu0x9r7RBqgo81Wz8O2DZXjo-KeUMH577z-FlUMeMr7h9UADcIJWeLfKgJ6m4OJDHd6D9d9ffYABmaiunw8xFXr--rGQRiAbaN4bz7VonVvT2_eWZjcGx_aXmo9sxFhjqdJkFd_I7jlpBXpy0O2AElUGt "Gestionar proponente")
+
+![Generar carta de intención](https://www.plantuml.com/plantuml/png/TOyn3i8m34NtdC8Nw1sAa41iBCoHIJn4QcpaEaFFnH6u64gfW8WmMVxwVlzxd0tLIfxWI4oA2W7L4291OYCEwN5dXy54uQno4oOsseHTp8dJR8fHr5sbS4HTu7Bo-mhnNuGWR2hl5B-cE69Bji1Vzo5fHdNkamp3qELtj6hT0AzHXP_3veVgQ1isMnVWHk9OylG4 "Generar carta de intención")
+
+![Generar carta de compromiso](https://www.plantuml.com/plantuml/png/TO-n3i8m34JtV8L_eFzGX0HYOs6kJE8XKcDNLtVetwD01KIKoVBf_ExSpyxmfOnq5XKmA3ASAGb5AnEivDa2HpVG5JQPYhfimY6Lh7bsS3A4kosQ62lTBiEnGeOlGZHrs3jbUAO4KS--qb_tAQCmGlWaKzVjydUqQjq0hr65dyFcX-fe6pRRBY3qecafumC0 "Generar carta de compromiso")
+
+
+
 # Modelo de diseño
 ![]()
 ![]()
