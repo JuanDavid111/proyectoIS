@@ -6,7 +6,6 @@
  1. Luis Hernández 29661835
  1. Grisbelis Rodríguez 30613057
  
-
 ------------
 ## Modelo del Dominio
 ![](https://github.com/JuanDavid111/proyectoIS/blob/main/imagenes/Diagrama%20de%20clases.png)
