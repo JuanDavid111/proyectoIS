@@ -1,4 +1,4 @@
-package Modelo;
+package CurseateModel;
 
 public class B {
     public
