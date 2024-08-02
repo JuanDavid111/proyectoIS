@@ -1,0 +1,36 @@
+@startuml PaquetesJava
+
+package Gestion_Curso {
+  class Proponer_Curso
+  class Llenar_Formulario
+}
+package Gestion_Aval {
+  class Otorgar_Aval
+  class Ver_Curso
+}
+Gestion_Aval -[dashed]--> Gestion_Curso
+package Gestion_Sesion_Usuario {
+  class Iniciar_Sesion
+  class Registrarse
+  class Gestionar_Sesion
+}
+
+package Gestion_Cartas {
+  
+  class Generar_Carta_Intecion
+  class Generar_Carta_Compromiso
+  class Firmar_Carta
+}
+Gestion_Cartas -[dashed]--> Gestion_Curso
+package Gestion_Planificacion_Aliado {
+  class Entregar_Cronograma
+  class Entregar_Estructura_Costos
+}
+
+Gestion_Curso -[dashed]--> Gestion_Sesion_Usuario
+Gestion_Planificacion_Aliado -[dashed]--> Gestion_Curso
+
+hide members
+hide circle
+
+@enduml

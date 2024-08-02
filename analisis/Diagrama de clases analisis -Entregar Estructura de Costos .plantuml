@@ -1,0 +1,14 @@
+@startuml
+@startuml Entregar Estructura de Costos
+actor Aliado
+
+boundary UI_Estructura_Costo
+control Entregar_Estructura_Costos
+entity Entidad_Financiera
+
+Aliado -- UI_Estructura_Costo 
+UI_Estructura_Costo -- Entregar_Estructura_Costos
+Entregar_Estructura_Costos -- Entidad_Financiera
+
+
+@enduml
